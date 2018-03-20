@@ -136,7 +136,7 @@ static const CGFloat kBGOffsetW = 60.f;//可移动偏移量
     self.resetPasswordBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
     self.resetPasswordBtn.titleLabel.font = [UIFont systemFontOfSize:kOtherFontSize];
     [self.resetPasswordBtn addTarget:self action:@selector(resetPasswordAction:) forControlEvents:UIControlEventTouchUpInside];
-    [self.resetPasswordBtn setTitle:@"忘记密码？" forState:UIControlStateNormal];
+    [self.resetPasswordBtn setTitle:@"忘记密码" forState:UIControlStateNormal];
     [self.containerView addSubview:self.resetPasswordBtn];
     
     

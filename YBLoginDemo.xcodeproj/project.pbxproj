@@ -38,7 +38,6 @@
 		4C502B652060EC1800F5FEFF /* login_bg01.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C502B602060EC1800F5FEFF /* login_bg01.jpg */; };
 		4C502B662060EC1800F5FEFF /* login_bg02.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C502B612060EC1800F5FEFF /* login_bg02.jpg */; };
 		4C502B672060EC1800F5FEFF /* login_bg03.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 4C502B622060EC1800F5FEFF /* login_bg03.jpg */; };
-		4C502B682060EC1800F5FEFF /* login_bg_gif_01.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C502B632060EC1800F5FEFF /* login_bg_gif_01.gif */; };
 		4C502B692060EC1800F5FEFF /* thea.gif in Resources */ = {isa = PBXBuildFile; fileRef = 4C502B642060EC1800F5FEFF /* thea.gif */; };
 /* End PBXBuildFile section */
 
@@ -120,7 +119,6 @@
 		4C502B602060EC1800F5FEFF /* login_bg01.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg01.jpg; sourceTree = "<group>"; };
 		4C502B612060EC1800F5FEFF /* login_bg02.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg02.jpg; sourceTree = "<group>"; };
 		4C502B622060EC1800F5FEFF /* login_bg03.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = login_bg03.jpg; sourceTree = "<group>"; };
-		4C502B632060EC1800F5FEFF /* login_bg_gif_01.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = login_bg_gif_01.gif; sourceTree = "<group>"; };
 		4C502B642060EC1800F5FEFF /* thea.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = thea.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -309,7 +307,6 @@
 				4C502B602060EC1800F5FEFF /* login_bg01.jpg */,
 				4C502B612060EC1800F5FEFF /* login_bg02.jpg */,
 				4C502B622060EC1800F5FEFF /* login_bg03.jpg */,
-				4C502B632060EC1800F5FEFF /* login_bg_gif_01.gif */,
 				4C502B642060EC1800F5FEFF /* thea.gif */,
 			);
 			path = images;
@@ -427,7 +424,6 @@
 				4C502AE52060E50E00F5FEFF /* Assets.xcassets in Resources */,
 				4C502B4E2060E93A00F5FEFF /* README.md in Resources */,
 				4C502B652060EC1800F5FEFF /* login_bg01.jpg in Resources */,
-				4C502B682060EC1800F5FEFF /* login_bg_gif_01.gif in Resources */,
 				4C502B432060E93A00F5FEFF /* LICENSE in Resources */,
 				4C502B662060EC1800F5FEFF /* login_bg02.jpg in Resources */,
 				4C502AE32060E50E00F5FEFF /* Main.storyboard in Resources */,

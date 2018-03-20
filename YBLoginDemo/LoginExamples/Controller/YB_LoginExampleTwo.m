@@ -59,7 +59,7 @@ static const CGFloat kTFLeftH = 20.f;
     
     /** 设置背景 */
     self.bgImageView.animationImages = [NSArray YB_imagesWithLocalGif:@"thea" expectSize:self.view.bounds.size];
-    self.bgImageView.animationDuration = 7;//设置动画时间
+    self.bgImageView.animationDuration = 9;//设置动画时间
     [self.bgImageView startAnimating];
     [self.view addSubview:self.bgImageView];
     
@@ -129,7 +129,7 @@ static const CGFloat kTFLeftH = 20.f;
     self.resetPasswordBtn.contentHorizontalAlignment = UIControlContentHorizontalAlignmentRight;
     self.resetPasswordBtn.titleLabel.font = [UIFont systemFontOfSize:kOtherFontSize];
     [self.resetPasswordBtn addTarget:self action:@selector(resetPasswordAction:) forControlEvents:UIControlEventTouchUpInside];
-    [self.resetPasswordBtn setTitle:@"忘记密码？" forState:UIControlStateNormal];
+    [self.resetPasswordBtn setTitle:@"忘记密码" forState:UIControlStateNormal];
     [self.containerView addSubview:self.resetPasswordBtn];
     
     
