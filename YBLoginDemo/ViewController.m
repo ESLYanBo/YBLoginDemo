@@ -20,6 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    self.title = @"简单登陆功能录";
     
     [self setupUI];
 }
@@ -54,17 +55,13 @@
     }
     
     if (indexPath.row == 0) {
-        cell.textLabel.text = @"YBLoginDemo1";
-        cell.detailTextLabel.text = @"普通登录页";
+        cell.textLabel.text = @"普通";
     }else if (indexPath.row == 1){
-        cell.textLabel.text = @"YBLoginDemo2";
-        cell.detailTextLabel.text = @"Gif登录页";
+        cell.textLabel.text = @"Gif";
     }else if (indexPath.row == 2){
-        cell.textLabel.text = @"YBLoginDemo3";
-        cell.detailTextLabel.text = @"模糊登录页";
+        cell.textLabel.text = @"模糊";
     }else if (indexPath.row == 3){
-        cell.textLabel.text = @"YBLoginDemo4";
-        cell.detailTextLabel.text = @"重力登录页";
+        cell.textLabel.text = @"重力";
     }
     
     return cell;

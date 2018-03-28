@@ -51,12 +51,12 @@
 - (void)addBackBtn{
     
     UIButton *btn = [UIButton buttonWithType:UIButtonTypeCustom];
-    btn.frame = CGRectMake(20, 20, 40, 40);
+    btn.frame = CGRectMake(20, 20, 100, 40);
     btn.layer.masksToBounds = YES;
     btn.layer.cornerRadius = 20.f;
     btn.backgroundColor = [[UIColor blackColor] colorWithAlphaComponent:0.3];
     [btn addTarget:self action:@selector(backAction:) forControlEvents:UIControlEventTouchUpInside];
-    [btn setTitle:@"回" forState:UIControlStateNormal];
+    [btn setTitle:@"点我回去呗" forState:UIControlStateNormal];
     [self.view addSubview:btn];
     [self.view bringSubviewToFront:btn];
 }
